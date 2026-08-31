@@ -1,7 +1,7 @@
 // src/App.tsx
 import { useEffect } from "react";
 import { resolveSiteMode } from "./lib/site";
-import { Hub } from "./components/hub";
+import { Hub } from "./components/Hub";
 import { ComingSoon } from "./components/ComingSoon";
 
 const TITLES = {
