@@ -6,7 +6,7 @@ import { ComingSoon } from "./components/ComingSoon";
 
 const TITLES = {
   hub: "HKM",
-  vocational: "HKM Vocational Centre — Coming Soon",
+  vocational: "HKM Vocational Centre",
   bawoj: "Bawoj Restaurant — Coming Soon",
 };
 
@@ -16,16 +16,6 @@ export default function App() {
   useEffect(() => {
     document.title = TITLES[mode];
   }, [mode]);
-
-  if (mode === "vocational") {
-    return (
-      <ComingSoon
-        name="HKM Vocational Centre"
-        logo="/logos/vocational.png"
-        tagline="Practical, skills-based training — opening soon."
-      />
-    );
-  }
 
   if (mode === "bawoj") {
     return (

@@ -3,8 +3,6 @@ import { BackgroundSlideshow } from "./BackgroundSlideshow";
 import { BusinessCard } from "./BusinessCard";
 import { Footer } from "./Footer";
 
-// Swap these for the real filenames once you have them — 3 or 4 works
-// equally well, the slideshow adapts to however many are in this array.
 const BACKGROUND_IMAGES = [
   "/backgrounds/1.jpeg",
   "/backgrounds/2.jpeg",
@@ -43,10 +41,10 @@ export function Hub() {
           />
           <BusinessCard
             name="HKM Vocational Centre"
-            logo="/logos/hkm.png"
+            logo="/logos/vocational.png"
             description="Practical, skills-based training."
             href="https://vocational.hkm.co.tz"
-            status="coming-soon"
+            status="live"
           />
           <BusinessCard
             name="Bawoj Restaurant"
