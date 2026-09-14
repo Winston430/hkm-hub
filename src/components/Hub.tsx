@@ -41,7 +41,7 @@ export function Hub() {
           />
           <BusinessCard
             name="HKM Vocational Centre"
-            logo="/logos/vocational.png"
+            logo="/logos/hkm.png"
             description="Practical, skills-based training."
             href="https://vocational.hkm.co.tz"
             status="live"
