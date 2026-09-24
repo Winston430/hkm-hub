@@ -25,7 +25,6 @@ export function Hub() {
             Three businesses, one home.
           </h1>
           <p className="mt-4 max-w-md text-[15px] leading-relaxed text-text-secondary">
-            {/* Placeholder copy — swap once real descriptions exist */}
             Explore what we're building — from stationery and business tools
             to training and good food.
           </p>
@@ -51,7 +50,7 @@ export function Hub() {
             logo="/logos/bawoj.png"
             description="Good food, good company."
             href="https://bawoj.hkm.co.tz"
-            status="coming-soon"
+            status="live"
           />
         </section>
       </main>
